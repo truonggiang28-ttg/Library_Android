@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/edtBookNamesua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap ten sach"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/edtTienCocsua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap tien coc"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/edtNguoiMuonsua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap ten sach"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnLuu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Luu sach"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btnHuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Huy"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
