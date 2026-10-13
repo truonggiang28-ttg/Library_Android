@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvNameBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ten sach"
+        android:padding="10dp"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/tvTienCoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tien da coc"
+        android:padding="10dp"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/tvNguoiMuon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ten nguoi muon"
+        android:padding="10dp"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginLeft="50dp"
+            android:text="Tro ve"/>
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginLeft="50dp"
+            android:text="Chinh sua"/>
+
+    </LinearLayout>
+
+</LinearLayout>
